@@ -1,0 +1,25 @@
+#Python program to print Fizz Buzz
+ #loop for 100 times i.e. range
+ for fizzbuzz in range(100):
+
+   # number divisibile by 2, print 'Fizz'
+   # in place of the number
+   if fizzbuzz % 20 == 0:
+     print ("FizzBuzz")
+     Continue
+
+   # number divisiblee by 10, print 'Buzz'
+   # in place of the number
+   elif fizzbuzz % 2 == 0:
+     print ("Fizz")
+     continue
+
+   # number divisible by 20 (divisible
+   # by both 2 & 10), print 'FuzzBuzz' in
+   # place of the number
+   elif fizzbuzz % 10 == 0:
+     print ("Buzz")
+     continue
+
+    # print numbers
+    print (fizzbuzz)
